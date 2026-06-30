@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amrita Manna | Visual Artist</title>
+<title>Amrita Manna | Contemporary Visual Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 
 <style>
 *{
@@ -13,7 +18,7 @@ box-sizing:border-box;
 }
 
 body{
-background:#0d0d0d;
+  background:#0d0d0d;
 color:white;
 font-family:Arial,Helvetica,sans-serif;
 display:flex;
@@ -75,20 +80,78 @@ transform:translateY(0);
 </head>
 
 <body>
+<nav class="navbar">
+  <div class="logo">AMRITA MANNA</div>
 
-<div class="container">
+  <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Works</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
 
-<h1>AMRITA MANNA</h1>
+<section class="hero">
+    <h1>AMRITA MANNA</h1>
 
-<h2>Visual Artist • BFA Student</h2>
+    <h2>Contemporary Visual Artist</h2>
+
+    <p>
+        Bachelor of Fine Arts (BFA)<br>
+        Indian College of Arts & Draftsmanship, Kolkata
+    </p>
+
+    <a href="#" class="btn">
+        Explore Portfolio
+    </a>
+</section>
+<section class="about">
+
+<h2>About Me</h2>
 
 <p>
-Minimal • Contemporary • Conceptual
-</p>
+ I'm <strong>Amrita Manna</strong>, a contemporary visual artist and Bachelor of Fine Arts (BFA) student at the Indian College of Arts & Draftsmanship, Kolkata.
 
-<button>ENTER PORTFOLIO</button>
+My artistic practice explores painting through observation, emotion and experimentation across watercolor, oil, mixed media and drawing.
+
+</p>
+<section class="gallery">
+
+<h2>Selected Works</h2>
+
+<div class="gallery-grid">
+
+<div class="card">
+<h3>Outdoor</h3>
+<p>Transparent Watercolour on Paper</p>
+<p>22 × 30 in</p>
+</div>
+
+<div class="card">
+<h3>Still Life</h3>
+<p>Oil on Canvas</p>
+<p>24 × 36 in</p>
+</div>
+
+<div class="card">
+<h3>Creative Composition</h3>
+<p>Egg Tempera on Paper</p>
+<p>22 × 30 in</p>
+</div>
+
+<div class="card">
+<h3>Comfort</h3>
+<p>Mixed Media on Canvas</p>
+<p>16 × 20 in</p>
+</div>
 
 </div>
+
+</section>
+</section>
+<script src="script.js"></script>
+<div class="container">
+
 
 </body>
 </html>
