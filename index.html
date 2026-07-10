@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amrita Manna | Contemporary Visual Artist</title>
+<title>Amrita Manna |Visual Arts Practitioner</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -84,26 +84,29 @@ transform:translateY(0);
   <div class="logo">AMRITA MANNA</div>
 
   <ul class="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#gallery">Works</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="explore.html">Explore</a></li>
+<li><a href="statement.html">Artist Statement</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
 </nav>
 
-<section class="hero">
+<section class="hero" id="home">
     <h1>AMRITA MANNA</h1>
 
-    <h2>Contemporary Visual Artist</h2>
+    <h2>Visual Arts Practitioner</h2>
 
     <p>
         Bachelor of Fine Arts (BFA)<br>
         Indian College of Arts & Draftsmanship, Kolkata
     </p>
 
-    <a href="#gallery" class="btn">
-        Explore Portfolio
+    <a href="#explore" class="btn">
+Explore
 </a>
+        
 </section>
 <section class="about" id="about">
 
@@ -112,40 +115,43 @@ transform:translateY(0);
 <p>
  I'm <strong>Amrita Manna</strong>, a contemporary visual artist and Bachelor of Fine Arts (BFA) student at the Indian College of Arts & Draftsmanship, Kolkata.
 
-My artistic practice explores painting through observation, emotion and experimentation across watercolor, oil, mixed media and drawing.
+My artistic practice explores painting through observation, emotion and experimentation across watercolor,pen, oil, mixed media and drawing.
 
 </p>
-<section class="gallery" id="gallery">
+<section class="explore" id="explore">
 
-<h2>Selected Works</h2>
+    <h2>CORE MEMORY</h2>
 
-<div class="gallery-grid">
+    <p class="series-subtitle">
+        An Ongoing Research-Based Series
+    </p>
 
-<div class="card">
-<h3>Outdoor</h3>
-<p>Transparent Watercolour on Paper</p>
-<p>22 × 30 in</p>
-</div>
+    <p class="series-quote">
+        Identity Begins with a Birthmark.
+    </p>
 
-<div class="card">
-<h3>Still Life</h3>
-<p>Oil on Canvas</p>
-<p>24 × 36 in</p>
-</div>
+    <a href="#corememory" class="btn">
+        Enter Series
+    </a>
 
-<div class="card">
-<h3>Creative Composition</h3>
-<p>Egg Tempera on Paper</p>
-<p>22 × 30 in</p>
-</div>
+</section>
+<section id="feedback" class="feedback">
 
-<div class="card">
-<h3>Comfort</h3>
-<p>Mixed Media on Canvas</p>
-<p>16 × 20 in</p>
-</div>
+    <h2>Feedback</h2>
 
-</div>
+    <p>I would love to hear your thoughts about my work.</p>
+
+    <form>
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Write your feedback..." rows="6" required></textarea>
+
+        <button type="submit">Send Feedback</button>
+
+    </form>
 
 </section>
 <section class="contact" id="contact">
@@ -172,8 +178,13 @@ amritamanna315@gmail.com</p>
 </div>
 
 </section>
+<footer>
+
+<p>© 2026 Amrita Manna. All Rights Reserved.</p>
+
+</footer>
 <script src="script.js"></script>
-<div class="container">
+
 
 
 </body>
