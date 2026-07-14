@@ -1,44 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Feedback | Amrita Manna</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<nav>
-<ul class="menu">
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+AMRITA MANNA
+
+</div>
+<div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
+<ul class="menu" id="menu">
+
 <li><a href="index.html">Home</a></li>
+
 <li><a href="about.html">About</a></li>
+
 <li><a href="explore.html">Explore</a></li>
+
 <li><a href="statement.html">Artist Statement</a></li>
+
 <li><a href="feedback.html">Feedback</a></li>
+
 <li><a href="contact.html">Contact</a></li>
+
 </ul>
+
 </nav>
+
+</header>
+
+<main>
 
 <section class="feedback-page">
 
 <h1>Feedback</h1>
 
-<p>I would love to hear your thoughts about my work.</p>
+<p>
+
+Thank you for visiting my portfolio.
+
+I would be grateful to hear your thoughts, observations, or suggestions about my artistic practice.
+
+</p>
 
 <form>
 
-<input type="text" placeholder="Your Name" required>
+<input
+type="text"
+placeholder="Your Name"
+required>
 
-<input type="email" placeholder="Your Email" required>
+<input
+type="email"
+placeholder="Your Email"
+required>
 
-<textarea rows="6" placeholder="Write your feedback..." required></textarea>
+<div class="rating">
 
-<button type="submit">Send Feedback</button>
+<p>Rate Your Experience</p>
+
+<div class="stars">
+
+<input type="radio" id="star5" name="rating" value="5">
+<label for="star5">★</label>
+
+<input type="radio" id="star4" name="rating" value="4">
+<label for="star4">★</label>
+
+<input type="radio" id="star3" name="rating" value="3">
+<label for="star3">★</label>
+
+<input type="radio" id="star2" name="rating" value="2">
+<label for="star2">★</label>
+
+<input type="radio" id="star1" name="rating" value="1">
+<label for="star1">★</label>
+
+</div>
+
+</div>
+
+<textarea
+rows="7"
+placeholder="Write your feedback..."
+required>
+</textarea>
+
+<button type="submit">
+
+Send Feedback
+
+</button>
 
 </form>
 
 </section>
 
+</main><footer>
+
+<p>
+© 2026 Amrita Manna. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
